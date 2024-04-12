@@ -1,0 +1,89 @@
+/* Header styles */
+.header {
+  background-color: #2E8B57; /* Dark Sea Green */
+  color: white;
+}
+
+/* Home section styles */
+.home {
+  background-color: #90EE90; /* Light Green */
+  color: #333; /* Dark Gray */
+}
+
+/* About section styles */
+.about {
+  background-color: #66CDAA; /* Medium Aquamarine */
+  color: #333; /* Dark Gray */
+}
+
+/* Doctors section styles */
+.doctors {
+  background-color: #7CFC00; /* Lawn Green */
+  color: #333; /* Dark Gray */
+}
+
+/* Reviews section styles */
+.reviews {
+  background-color: #32CD32; /* Lime Green */
+  color: #333; /* Dark Gray */
+}
+
+/* Appointment section styles */
+.appointment {
+  background-color: #3CB371; /* Medium Sea Green */
+  color: #333; /* Dark Gray */
+}
+
+/* Box styles */
+.box {
+  background-color: #FFF; /* White */
+  border: 1px solid #ccc; /* Light Gray */
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+.box img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Social media links */
+.share a {
+  color: #333; /* Dark Gray */
+  margin: 0 5px;
+}
+
+/* Centered heading styles */
+.center-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Additional CSS styles */
+.appointment-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* Ensure image doesn't exceed its original size */
+}
+/* Add CSS styles for the receipt message */
+#receiptMessage {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#receiptMessage p {
+  margin: 0;
+}
+
+#receiptMessage p:first-child {
+  margin-top: 0;
+}
+
